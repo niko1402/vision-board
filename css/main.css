@@ -1,0 +1,35 @@
+body {
+    background-color: #E8E8E8;
+}
+
+#vision-board {
+    width: 1200px;
+    height: 850px;
+    background: url('../img/background.png');
+    background-size: cover;
+    font-family: 'Monterrat', sans-serif;
+    text-transform: uppercase;
+    overflow: auto;
+}
+
+.block {
+    float: left;
+    width: 400px;
+    box-sizing: border-box;
+}
+
+.small-block {
+    height: 210px;
+}
+
+.large-block {
+    height: 430px;
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
