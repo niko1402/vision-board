@@ -5,9 +5,12 @@ body {
 #vision-board {
     width: 1200px;
     height: 850px;
+    margin: 50px auto;
     background: url('../img/background.png');
     background-size: cover;
-    font-family: 'Monterrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
     text-transform: uppercase;
     overflow: auto;
 }
@@ -20,10 +23,12 @@ body {
 
 .small-block {
     height: 210px;
+    padding: 20px 30px;
 }
 
 .large-block {
     height: 430px;
+    padding: 60px 30px;
 }
 
 .center {
@@ -32,4 +37,38 @@ body {
 
 .right {
     text-align: right;
+}
+
+.light-bg {
+    background-color: #FFFFFF;
+}
+
+.dark-bg {
+    background-color: #3B3B3B;
+    color: #FFFFFF;
+}
+
+.highlight {
+    background-color: #FFF44F;
+    font-size: 18px;
+    padding: 5px 20px;
+
+}
+
+strong {
+    font-size: 38px;
+    text-transform: none;
+}
+
+.top-padding {
+    padding-top: 40px;
+}
+
+.title p {
+    font-size: 30px;
+}
+
+.title span {
+    font-family: 'Permanent Marker';
+    font-weight: normal;
 }
